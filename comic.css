@@ -2,13 +2,13 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Cinzel;
 }
 
 .video-container {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 93vh;
     overflow: hidden;
 }
 
@@ -67,7 +67,7 @@ body {
 
     margin: auto;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Cinzel;
     font-size: 1.5rem;
     line-height: 1.56;
     white-space: nowrap;
@@ -149,11 +149,14 @@ body {
 }
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jaro:opsz@6..72&family=VT323&display=swap');
 .wrapper{
     /* border:1px solid wheat; */
+    font-family: VT323;
+    font-size: 3rem;
+    border:1px solid wheat;
     align-items: center;
-    /* align-content: center; */
+
     max-width: 1536px;
     width: 90%;
     margin-inline: auto;
@@ -176,7 +179,7 @@ body {
 }
 
 .item{
-    width: 300px;
+    width: 420px;
     height: 100px;
     background-color:black;
     border-radius: 6px;
@@ -188,7 +191,9 @@ body {
     animation-iteration-count: infinite;
     align-content: center;
     text-align: center;
-    font-size: 18px;
+
+    font-size: 28px;
+    margin-top: -15px;
     /* overflow: hidden; */
     /* font-family: 'Courier New', Courier, monospace; */
 }
@@ -226,7 +231,7 @@ body {
     animation-delay:calc(30s/8 * (8 - 8) * -1) ;
 /* } */
 .galactus{
-    font-family: "VT323", serif;
+    font-family: "Impact", serif;
     color:white;
     margin-top: 5rem;
     margin-left: 10rem;
