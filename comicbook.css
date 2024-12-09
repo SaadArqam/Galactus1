@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* height: 100vh; */
+}
+
+.conteudo {
+    width: 800px;
+    height: 750px;
+    margin-top: 20px;
+    border: 15px solid rgb(255, 255, 255);
+    margin-left: 17.5rem;
+    
+}
+
+.carrousel {
+    /* margin-top: 100px; */
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: smooth;
+    gap: 1.2rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    padding: 1rem;
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 800px;
+    height: 750px;
+
+    margin-top: -16px;
+
+    scroll-snap-align: start;
+}
